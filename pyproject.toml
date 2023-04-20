@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "XMLCit"
-version = "0.0.1"
+version = "0.0.5"
 authors = [
   { name="Jose Hernandez", email="jose.hndz.prz@gmail.com" },
 ]
@@ -16,6 +16,3 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-
-[project.urls]
-"Homepage" = ""
