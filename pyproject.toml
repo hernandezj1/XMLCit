@@ -15,4 +15,11 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+<<<<<<< HEAD
 ]
+=======
+]
+
+[project.urls]
+"Homepage" = "https://github.com/hernandezj1/XMLCit"
+>>>>>>> 2c53e2e3f150e2b88d111316f6b0b5c3a2b1bd55
