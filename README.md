@@ -8,16 +8,16 @@
 
 ### Method descriptions
 
-     -  __ID__
+1.__ID__
 
-     - __CitbyID__
+2.  __CitbyID__
 
-     - __CitbyText__
+3.  __CitbyText__
 
 ## Additional Functions descriptions
 
- - __AddVIAF__
+4.  __AddVIAF__
 
- - __Addtag__
+5.  __Addtag__
 
- - __RepeatCitation__
+6. __RepeatCitation__
