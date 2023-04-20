@@ -1,1 +1,0 @@
-from .VIAFreffun import AddVIAF

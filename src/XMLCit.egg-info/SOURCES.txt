@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/VIAFfunctions/VIAFreffun.py
+src/VIAFfunctions/__init__.py
+src/XMLCit.egg-info/PKG-INFO
+src/XMLCit.egg-info/SOURCES.txt
+src/XMLCit.egg-info/dependency_links.txt
+src/XMLCit.egg-info/top_level.txt
+src/opcitfunctions/Ibidfunc.py
+src/opcitfunctions/__init__.py
+src/tagfunctions/__init__.py
+src/tagfunctions/addtagfunc.py
+src/tagfunctions/tagfunctions.py
