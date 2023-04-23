@@ -14,7 +14,7 @@
 
   __Usage guidelines:__
 
-    1. To import the libary please use the next few lines in your code. It is key that for the methods inside the Insert class you define an instance of this class beforehand.
+  To import the libary please use the next few lines in your code. It is key that for the methods inside the Insert class you define an instance of this class beforehand.
 
     ```
     from XMLCit import functions # After this all functions can be found by doing the following: 
@@ -22,7 +22,7 @@
     functions.Addtag
     functions.RepeatCitation
 
-    #To use the class methods do the following
+    #To use the class methods do the following:
     instance = functions.Insert()
     #then you can use this instance to call each of the methods and not include the self parameter
     instance.ID()
