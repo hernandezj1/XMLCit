@@ -5,11 +5,16 @@
   This packages was developed by staff of the Research Computing Center at Florida State University to serve the needs of our digital humanities community. Therefore the methods and functions in this package were developed with ease of use in mind and to be specifically applicable to TEI-XML standards. TEI-XML specifications can be found here <a href='https://tei-c.org/'>TEI</a>
 
   The functions and methods here encompassed modify XMl documents on a large scale to avoid tedious work by the researcher. The main goald of this package was to provide a way to do the following: 
-    1. Tag a specific word within every instance of a specific node of the TEI-XMl document. In our case this was specific citations within the __note__ node.
-    2. Add attributes to every instance of a specific node based on the presence of an ID number attribute or a specific collection of words inside said node. These attributes where:
+
+  1. Tag a specific word within every instance of a specific node of the TEI-XMl document. In our case this was specific citations within the __note__ node.
+  
+  2. Add attributes to every instance of a specific node based on the presence of an ID number attribute or a specific collection of words inside said node. These attributes where:
+
       a. A VIAF number, webscraped from the VIAF website
+
       b. an ID number
-      c. A complete citation. 
+
+      c. A completed citation. 
     
 
   __Usage guidelines:__
@@ -45,7 +50,7 @@
   - Inserts an 'ID' attribute inside the selected tag based on text inside XML tag. 
 
 2.  __CitbyID__
-  - Inserts a text( in this case meant to be a full citation) in an attribute by checking ofr the specified ID number.
+  - Inserts a text( in this case meant to be a full citation) in an attribute by checking for the specified ID number.
 
 3.  __CitbyText__
   - Inserts a text( in this case meant to be a full citation) in an attrribute by seacrhing for matching text inside the selected tag (node)
@@ -53,9 +58,9 @@
 ## Additional Functions descriptions
 
 4.  __AddVIAF__
-      This function adds an attribute with the VIAF ( Virtual International Authority File) number of the cited text. To do this it searches the first 4 words of the citation in the VIAF database using the selenium webdriver.
+      This function adds an attribute with the <a href='https://viaf.org/'>VIAF</a> (Virtual International Authority File) number of the cited text. To do this it searches the first 4 words of the citation in the VIAF database using the __selenium__ webdriver.
 
-      Additional Requirements: 
+      *Additional Requirements:*
         This function will need a filepath argument to be filled in directing the fucntion to find a chromedriver executable file to run the __selenium__ webdriver. This version of the function only works with the Chrome web browser. Future updates shall expand to the Firefox webdriver.       
 
       
