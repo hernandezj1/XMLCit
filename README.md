@@ -2,7 +2,7 @@
 
 ## Purpose
  
-  This packages was developed by staff of the Research Computing Center at Florida State University to serve the needs of our digital humanities community. Therefore the methods and functions in this package were developed with ease of use in mind and to be specifically applicable to TEI-XML standards. TEI-XML specifications can be found here <a href='https://tei-c.org/'>TEI</a>
+  This packages was developed to serve the needs of the digital humanities community particularly those working with repeated citation on TEI-XML texts. Therefore the methods and functions in this package were developed with ease of use in mind and to be specifically applicable to TEI-XML standards. TEI-XML specifications can be found here <a href='https://tei-c.org/'>TEI</a>
 
   The functions and methods here encompassed modify XMl documents on a large scale to avoid tedious work by the researcher. The main goald of this package was to provide a way to do the following: 
 
